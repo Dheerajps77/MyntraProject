@@ -1,5 +1,6 @@
 package com.qa.myntra.TestClass;
 
+import java.io.IOException;
 import java.lang.reflect.Method;
 
 import org.openqa.selenium.support.PageFactory;
@@ -13,11 +14,13 @@ import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.qa.myntra.TestBase.TestbaseClass;
 import com.qa.myntra.TestPage.HomePage;
+import com.qa.myntra.Utilities.CaptureScreenshot;
 
 public class HomePageClass extends TestbaseClass{
 	
 	
 	HomePage ObjHomePage;
+	CaptureScreenshot ab;
 	
 	@BeforeMethod
 	public void Extentreport(Method method)
@@ -26,7 +29,7 @@ public class HomePageClass extends TestbaseClass{
 	}
 	
 	@AfterMethod
-	public void getResult(ITestResult result)
+	public void getResult(ITestResult result) throws IOException
 	{
 		if(result.getStatus()==ITestResult.SUCCESS)
 		{
@@ -37,6 +40,7 @@ public class HomePageClass extends TestbaseClass{
 		{
 			e3.log(Status.FAIL, MarkupHelper.createLabel(result.getMethod().getMethodName(), ExtentColor.RED));
 			e3.log(Status.FAIL, result.getThrowable());
+			ab.ScreenshotCapture(driver, this.getClass().getSimpleName()+".png");
 			e3.log(Status.FAIL, result.getMethod().getMethodName() + " has been failed");
 		}
 		

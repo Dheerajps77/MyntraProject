@@ -25,7 +25,7 @@ public class Parameterizing {
 	@Parameters({"FirstName","SecondName"})
 	public void ReceiverPage(String FirstName, String SecondName)
 	{
-		System.out.println("Receiver first name is : + "+FirstName+"and second name is : "+ SecondName);
+		System.out.println("Receiver first name is : + " + FirstName + "and second name is : " + SecondName);
 	}
 
 }

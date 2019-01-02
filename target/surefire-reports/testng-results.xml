@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Parameterizing Suite" duration-ms="86" started-at="2019-01-02T10:45:24Z" finished-at="2019-01-02T10:45:24Z">
+  <suite name="Parameterizing Suite" duration-ms="83" started-at="2019-01-02T10:54:57Z" finished-at="2019-01-02T10:54:58Z">
     <groups>
     </groups>
-    <test name="Parameterizing test" duration-ms="86" started-at="2019-01-02T10:45:24Z" finished-at="2019-01-02T10:45:24Z">
+    <test name="Parameterizing test" duration-ms="83" started-at="2019-01-02T10:54:57Z" finished-at="2019-01-02T10:54:58Z">
       <class name="com.qa.PracticeExample.Parameterizing">
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:com.qa.PracticeExample.Parameterizing@380fb434]" name="Login" duration-ms="16" started-at="2019-01-02T10:45:24Z" finished-at="2019-01-02T10:45:24Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:com.qa.PracticeExample.Parameterizing@380fb434]" name="Login" duration-ms="2" started-at="2019-01-02T10:54:58Z" finished-at="2019-01-02T10:54:58Z">
           <params>
             <param index="0">
               <value>
@@ -23,10 +23,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="PaymentPage()[pri:0, instance:com.qa.PracticeExample.Parameterizing@380fb434]" name="PaymentPage" duration-ms="1" started-at="2019-01-02T10:45:24Z" depends-on-methods="com.qa.PracticeExample.Parameterizing.Login" finished-at="2019-01-02T10:45:24Z">
+        <test-method status="PASS" signature="PaymentPage()[pri:0, instance:com.qa.PracticeExample.Parameterizing@380fb434]" name="PaymentPage" duration-ms="0" started-at="2019-01-02T10:54:58Z" depends-on-methods="com.qa.PracticeExample.Parameterizing.Login" finished-at="2019-01-02T10:54:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PaymentPage -->
+        <test-method status="PASS" signature="ReceiverPage(java.lang.String, java.lang.String)[pri:0, instance:com.qa.PracticeExample.Parameterizing@380fb434]" name="ReceiverPage" duration-ms="0" started-at="2019-01-02T10:54:58Z" depends-on-methods="com.qa.PracticeExample.Parameterizing.PaymentPage" finished-at="2019-01-02T10:54:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Summit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Singh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReceiverPage -->
       </class> <!-- com.qa.PracticeExample.Parameterizing -->
     </test> <!-- Parameterizing test -->
   </suite> <!-- Parameterizing Suite -->

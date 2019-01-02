@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="com.qa.myntra.TestBase.TestbaseClass" duration-ms="40900" started-at="2018-12-31T09:14:21Z" finished-at="2018-12-31T09:15:02Z">
+  <suite name="Parameterizing Suite" duration-ms="86" started-at="2019-01-02T10:45:24Z" finished-at="2019-01-02T10:45:24Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="40900" started-at="2018-12-31T09:14:21Z" finished-at="2018-12-31T09:15:02Z">
-      <class name="com.qa.myntra.TestBase.TestbaseClass">
-        <test-method status="PASS" signature="ExtentReportInit()[pri:0, instance:com.qa.myntra.TestBase.TestbaseClass@13969fbe]" name="ExtentReportInit" is-config="true" duration-ms="552" started-at="2018-12-31T09:14:21Z" finished-at="2018-12-31T09:14:21Z">
+    <test name="Parameterizing test" duration-ms="86" started-at="2019-01-02T10:45:24Z" finished-at="2019-01-02T10:45:24Z">
+      <class name="com.qa.PracticeExample.Parameterizing">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:com.qa.PracticeExample.Parameterizing@380fb434]" name="Login" duration-ms="16" started-at="2019-01-02T10:45:24Z" finished-at="2019-01-02T10:45:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dheeraj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ExtentReportInit -->
-        <test-method status="PASS" signature="OpeningBrowser()[pri:0, instance:com.qa.myntra.TestBase.TestbaseClass@13969fbe]" name="OpeningBrowser" is-config="true" duration-ms="38729" started-at="2018-12-31T09:14:21Z" finished-at="2018-12-31T09:15:00Z">
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="PaymentPage()[pri:0, instance:com.qa.PracticeExample.Parameterizing@380fb434]" name="PaymentPage" duration-ms="1" started-at="2019-01-02T10:45:24Z" depends-on-methods="com.qa.PracticeExample.Parameterizing.Login" finished-at="2019-01-02T10:45:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpeningBrowser -->
-        <test-method status="PASS" signature="tearDownBrowser()[pri:0, instance:com.qa.myntra.TestBase.TestbaseClass@13969fbe]" name="tearDownBrowser" is-config="true" duration-ms="2158" started-at="2018-12-31T09:15:00Z" finished-at="2018-12-31T09:15:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownBrowser -->
-        <test-method status="PASS" signature="ExtentReportFlush()[pri:0, instance:com.qa.myntra.TestBase.TestbaseClass@13969fbe]" name="ExtentReportFlush" is-config="true" duration-ms="0" started-at="2018-12-31T09:15:02Z" finished-at="2018-12-31T09:15:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ExtentReportFlush -->
-      </class> <!-- com.qa.myntra.TestBase.TestbaseClass -->
-    </test> <!-- Command line test -->
-  </suite> <!-- com.qa.myntra.TestBase.TestbaseClass -->
+        </test-method> <!-- PaymentPage -->
+      </class> <!-- com.qa.PracticeExample.Parameterizing -->
+    </test> <!-- Parameterizing test -->
+  </suite> <!-- Parameterizing Suite -->
 </testng-results>

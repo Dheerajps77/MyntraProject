@@ -19,5 +19,13 @@ public class Parameterizing {
 	{
 		System.out.println("I am in PaymentPage");
 	}
+	
+	
+	@Test(dependsOnMethods="PaymentPage")
+	@Parameters({"FirstName","SecondName"})
+	public void ReceiverPage(String FirstName, String SecondName)
+	{
+		System.out.println("Receiver first name is : + "+FirstName+"and second name is : "+ SecondName);
+	}
 
 }

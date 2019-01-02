@@ -1,3 +1,5 @@
+com\qa\myntra\Utilities\CaptureScreenshot.class
+com\qa\myntra\TestPage\HomePage.class
+com\qa\PracticeExample\Parameterizing.class
 com\qa\myntra\TestClass\HomePageClass.class
 com\qa\myntra\TestBase\TestbaseClass.class
-com\qa\myntra\TestPage\HomePage.class

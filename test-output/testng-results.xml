@@ -1,55 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Home Page Suite" duration-ms="108363" started-at="2018-12-31T09:20:49Z" finished-at="2018-12-31T09:22:38Z">
+  <suite name="Parameterizing Suite" duration-ms="131" started-at="2019-01-02T06:28:43Z" finished-at="2019-01-02T06:28:43Z">
     <groups>
     </groups>
-    <test name="Home Page test case" duration-ms="108363" started-at="2018-12-31T09:20:49Z" finished-at="2018-12-31T09:22:38Z">
-      <class name="com.qa.myntra.TestClass.HomePageClass">
-        <test-method status="PASS" signature="ExtentReportInit()[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@3e6fa38a]" name="ExtentReportInit" is-config="true" duration-ms="563" started-at="2018-12-31T09:20:49Z" finished-at="2018-12-31T09:20:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ExtentReportInit -->
-        <test-method status="PASS" signature="OpeningBrowser()[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@3e6fa38a]" name="OpeningBrowser" is-config="true" duration-ms="39166" started-at="2018-12-31T09:20:49Z" finished-at="2018-12-31T09:21:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpeningBrowser -->
-        <test-method status="PASS" signature="Extentreport(java.lang.reflect.Method)[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@3e6fa38a]" name="Extentreport" is-config="true" duration-ms="17" started-at="2018-12-31T09:21:29Z" finished-at="2018-12-31T09:21:29Z">
+    <test name="Parameterizing test" duration-ms="131" started-at="2019-01-02T06:28:43Z" finished-at="2019-01-02T06:28:43Z">
+      <class name="com.qa.PracticeExample.Parameterizing">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:com.qa.PracticeExample.Parameterizing@14acaea5]" name="Login" duration-ms="31" started-at="2019-01-02T06:28:43Z" finished-at="2019-01-02T06:28:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.qa.myntra.TestClass.HomePageClass.ClickOnGiftCard() throws java.lang.InterruptedException]]>
+                <![CDATA[Dheeraj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Extentreport -->
-        <test-method status="PASS" signature="ClickOnGiftCard()[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@3e6fa38a]" name="ClickOnGiftCard" duration-ms="66756" started-at="2018-12-31T09:21:29Z" finished-at="2018-12-31T09:22:35Z">
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="PaymentPage()[pri:0, instance:com.qa.PracticeExample.Parameterizing@14acaea5]" name="PaymentPage" duration-ms="0" started-at="2019-01-02T06:28:43Z" depends-on-methods="com.qa.PracticeExample.Parameterizing.Login" finished-at="2019-01-02T06:28:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ClickOnGiftCard -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@3e6fa38a]" name="getResult" is-config="true" duration-ms="0" started-at="2018-12-31T09:22:35Z" finished-at="2018-12-31T09:22:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ClickOnGiftCard status=SUCCESS method=HomePageClass.ClickOnGiftCard()[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@3e6fa38a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="tearDownBrowser()[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@3e6fa38a]" name="tearDownBrowser" is-config="true" duration-ms="2360" started-at="2018-12-31T09:22:35Z" finished-at="2018-12-31T09:22:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownBrowser -->
-        <test-method status="PASS" signature="ExtentReportFlush()[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@3e6fa38a]" name="ExtentReportFlush" is-config="true" duration-ms="1159" started-at="2018-12-31T09:22:38Z" finished-at="2018-12-31T09:22:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ExtentReportFlush -->
-      </class> <!-- com.qa.myntra.TestClass.HomePageClass -->
-    </test> <!-- Home Page test case -->
-  </suite> <!-- Home Page Suite -->
+        </test-method> <!-- PaymentPage -->
+      </class> <!-- com.qa.PracticeExample.Parameterizing -->
+    </test> <!-- Parameterizing test -->
+  </suite> <!-- Parameterizing Suite -->
 </testng-results>

@@ -20,7 +20,6 @@ public class HomePage {
 	@FindBy(how=How.XPATH, using="//a[text()='Gift Card']")
 	public WebElement GiftCardLink;
 	
-	
 	public void ClickOnGiftCard() throws InterruptedException
 	{
 		wait=new WebDriverWait(driver, 30);

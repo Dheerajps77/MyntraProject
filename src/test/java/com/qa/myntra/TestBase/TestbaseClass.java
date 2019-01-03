@@ -20,7 +20,8 @@ public class TestbaseClass {
 	String browserpath = System.getProperty("user.dir") + "/BrowserDriver/chromedriver.exe";
 	String extentreportpath = System.getProperty("user.dir") + "/ExtentReportsFolder/" + this.getClass().getSimpleName()
 			+ ".html";
-	String url = "https://www.myntra.com/";
+	//String url = "https://www.myntra.com/";
+	String url = "http://www.way2automation.com/Jmeter%20Training/Jmeter_training_noida_delhi.html";
 	public ExtentHtmlReporter e1;
 	public ExtentReports e2;
 	public ExtentTest e3;

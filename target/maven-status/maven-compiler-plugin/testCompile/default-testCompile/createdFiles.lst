@@ -1,5 +1,8 @@
+com\qa\PracticeExample\HeadlessBrowserTesting.class
+com\qa\myntra\TestPage\CourseAtWayToAutomation.class
+com\qa\myntra\TestClass\HomePageClass.class
 com\qa\myntra\Utilities\CaptureScreenshot.class
 com\qa\myntra\TestPage\HomePage.class
 com\qa\PracticeExample\Parameterizing.class
-com\qa\myntra\TestClass\HomePageClass.class
+com\qa\myntra\TestClass\CourseAtWayToAutomationClass.class
 com\qa\myntra\TestBase\TestbaseClass.class

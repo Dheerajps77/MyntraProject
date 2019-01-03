@@ -2,32 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Parameterizing Suite" duration-ms="131" started-at="2019-01-02T06:28:43Z" finished-at="2019-01-02T06:28:43Z">
+  <suite name="CourseAtWayToAutomation Suite" duration-ms="42779" started-at="2019-01-03T11:42:39Z" finished-at="2019-01-03T11:43:21Z">
     <groups>
     </groups>
-    <test name="Parameterizing test" duration-ms="131" started-at="2019-01-02T06:28:43Z" finished-at="2019-01-02T06:28:43Z">
-      <class name="com.qa.PracticeExample.Parameterizing">
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:com.qa.PracticeExample.Parameterizing@14acaea5]" name="Login" duration-ms="31" started-at="2019-01-02T06:28:43Z" finished-at="2019-01-02T06:28:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Dheeraj]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Password1]]>
-              </value>
-            </param>
-          </params>
+    <test name="CourseAtWayToAutomation Test" duration-ms="42779" started-at="2019-01-03T11:42:39Z" finished-at="2019-01-03T11:43:21Z">
+      <class name="com.qa.myntra.TestClass.CourseAtWayToAutomationClass">
+        <test-method status="PASS" signature="ExtentReportInit()[pri:0, instance:com.qa.myntra.TestClass.CourseAtWayToAutomationClass@77caeb3e]" name="ExtentReportInit" is-config="true" duration-ms="580" started-at="2019-01-03T11:42:38Z" finished-at="2019-01-03T11:42:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method status="PASS" signature="PaymentPage()[pri:0, instance:com.qa.PracticeExample.Parameterizing@14acaea5]" name="PaymentPage" duration-ms="0" started-at="2019-01-02T06:28:43Z" depends-on-methods="com.qa.PracticeExample.Parameterizing.Login" finished-at="2019-01-02T06:28:43Z">
+        </test-method> <!-- ExtentReportInit -->
+        <test-method status="PASS" signature="OpeningBrowser()[pri:0, instance:com.qa.myntra.TestClass.CourseAtWayToAutomationClass@77caeb3e]" name="OpeningBrowser" is-config="true" duration-ms="8992" started-at="2019-01-03T11:42:39Z" finished-at="2019-01-03T11:42:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PaymentPage -->
-      </class> <!-- com.qa.PracticeExample.Parameterizing -->
-    </test> <!-- Parameterizing test -->
-  </suite> <!-- Parameterizing Suite -->
+        </test-method> <!-- OpeningBrowser -->
+        <test-method status="PASS" signature="MouseHoverToCourseMenuLink()[pri:0, instance:com.qa.myntra.TestClass.CourseAtWayToAutomationClass@77caeb3e]" name="MouseHoverToCourseMenuLink" duration-ms="4308" started-at="2019-01-03T11:42:48Z" finished-at="2019-01-03T11:42:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MouseHoverToCourseMenuLink -->
+        <test-method status="PASS" signature="ListOfCourseOffered()[pri:1, instance:com.qa.myntra.TestClass.CourseAtWayToAutomationClass@77caeb3e]" name="ListOfCourseOffered" duration-ms="27308" started-at="2019-01-03T11:42:52Z" description="This is ListCourseMethod" depends-on-methods="com.qa.myntra.TestClass.CourseAtWayToAutomationClass.MouseHoverToCourseMenuLink" finished-at="2019-01-03T11:43:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListOfCourseOffered -->
+        <test-method status="PASS" signature="tearDownBrowser()[pri:0, instance:com.qa.myntra.TestClass.CourseAtWayToAutomationClass@77caeb3e]" name="tearDownBrowser" is-config="true" duration-ms="2107" started-at="2019-01-03T11:43:19Z" finished-at="2019-01-03T11:43:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+        <test-method status="PASS" signature="ExtentReportFlush()[pri:0, instance:com.qa.myntra.TestClass.CourseAtWayToAutomationClass@77caeb3e]" name="ExtentReportFlush" is-config="true" duration-ms="10" started-at="2019-01-03T11:43:21Z" finished-at="2019-01-03T11:43:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportFlush -->
+      </class> <!-- com.qa.myntra.TestClass.CourseAtWayToAutomationClass -->
+    </test> <!-- CourseAtWayToAutomation Test -->
+  </suite> <!-- CourseAtWayToAutomation Suite -->
 </testng-results>

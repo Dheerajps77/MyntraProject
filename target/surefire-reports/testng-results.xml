@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Parameterizing Suite" duration-ms="106" started-at="2019-01-03T11:45:56Z" finished-at="2019-01-03T11:45:56Z">
+  <suite name="Parameterizing Suite" duration-ms="61" started-at="2019-01-04T05:42:43Z" finished-at="2019-01-04T05:42:43Z">
     <groups>
     </groups>
-    <test name="Parameterizing test" duration-ms="106" started-at="2019-01-03T11:45:56Z" finished-at="2019-01-03T11:45:56Z">
+    <test name="Parameterizing test" duration-ms="61" started-at="2019-01-04T05:42:43Z" finished-at="2019-01-04T05:42:43Z">
       <class name="com.qa.PracticeExample.Parameterizing">
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:com.qa.PracticeExample.Parameterizing@3fb6a447]" name="Login" duration-ms="16" started-at="2019-01-03T11:45:56Z" finished-at="2019-01-03T11:45:56Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:com.qa.PracticeExample.Parameterizing@73f792cf]" name="Login" duration-ms="14" started-at="2019-01-04T05:42:43Z" finished-at="2019-01-04T05:42:43Z">
           <params>
             <param index="0">
               <value>
@@ -23,11 +23,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="PaymentPage()[pri:0, instance:com.qa.PracticeExample.Parameterizing@3fb6a447]" name="PaymentPage" duration-ms="0" started-at="2019-01-03T11:45:56Z" depends-on-methods="com.qa.PracticeExample.Parameterizing.Login" finished-at="2019-01-03T11:45:56Z">
+        <test-method status="PASS" signature="PaymentPage()[pri:0, instance:com.qa.PracticeExample.Parameterizing@73f792cf]" name="PaymentPage" duration-ms="1" started-at="2019-01-04T05:42:43Z" depends-on-methods="com.qa.PracticeExample.Parameterizing.Login" finished-at="2019-01-04T05:42:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PaymentPage -->
-        <test-method status="PASS" signature="ReceiverPage(java.lang.String, java.lang.String)[pri:0, instance:com.qa.PracticeExample.Parameterizing@3fb6a447]" name="ReceiverPage" duration-ms="0" started-at="2019-01-03T11:45:56Z" depends-on-methods="com.qa.PracticeExample.Parameterizing.PaymentPage" finished-at="2019-01-03T11:45:56Z">
+        <test-method status="PASS" signature="ReceiverPage(java.lang.String, java.lang.String)[pri:0, instance:com.qa.PracticeExample.Parameterizing@73f792cf]" name="ReceiverPage" duration-ms="2" started-at="2019-01-04T05:42:43Z" depends-on-methods="com.qa.PracticeExample.Parameterizing.PaymentPage" finished-at="2019-01-04T05:42:43Z">
           <params>
             <param index="0">
               <value>
@@ -46,32 +46,32 @@
       </class> <!-- com.qa.PracticeExample.Parameterizing -->
     </test> <!-- Parameterizing test -->
   </suite> <!-- Parameterizing Suite -->
-  <suite name="CourseAtWayToAutomation Suite" duration-ms="75588" started-at="2019-01-03T11:45:57Z" finished-at="2019-01-03T11:47:12Z">
+  <suite name="CourseAtWayToAutomation Suite" duration-ms="54518" started-at="2019-01-04T05:42:44Z" finished-at="2019-01-04T05:43:38Z">
     <groups>
     </groups>
-    <test name="CourseAtWayToAutomation Test" duration-ms="75588" started-at="2019-01-03T11:45:57Z" finished-at="2019-01-03T11:47:12Z">
+    <test name="CourseAtWayToAutomation Test" duration-ms="54518" started-at="2019-01-04T05:42:44Z" finished-at="2019-01-04T05:43:38Z">
       <class name="com.qa.myntra.TestClass.CourseAtWayToAutomationClass">
-        <test-method status="PASS" signature="ExtentReportInit()[pri:0, instance:com.qa.myntra.TestClass.CourseAtWayToAutomationClass@2096442d]" name="ExtentReportInit" is-config="true" duration-ms="442" started-at="2019-01-03T11:45:56Z" finished-at="2019-01-03T11:45:57Z">
+        <test-method status="PASS" signature="ExtentReportInit()[pri:0, instance:com.qa.myntra.TestClass.CourseAtWayToAutomationClass@737996a0]" name="ExtentReportInit" is-config="true" duration-ms="295" started-at="2019-01-04T05:42:44Z" finished-at="2019-01-04T05:42:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExtentReportInit -->
-        <test-method status="PASS" signature="OpeningBrowser()[pri:0, instance:com.qa.myntra.TestClass.CourseAtWayToAutomationClass@2096442d]" name="OpeningBrowser" is-config="true" duration-ms="9391" started-at="2019-01-03T11:45:57Z" finished-at="2019-01-03T11:46:06Z">
+        <test-method status="PASS" signature="OpeningBrowser()[pri:0, instance:com.qa.myntra.TestClass.CourseAtWayToAutomationClass@737996a0]" name="OpeningBrowser" is-config="true" duration-ms="7943" started-at="2019-01-04T05:42:44Z" finished-at="2019-01-04T05:42:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpeningBrowser -->
-        <test-method status="PASS" signature="MouseHoverToCourseMenuLink()[pri:0, instance:com.qa.myntra.TestClass.CourseAtWayToAutomationClass@2096442d]" name="MouseHoverToCourseMenuLink" duration-ms="4250" started-at="2019-01-03T11:46:06Z" finished-at="2019-01-03T11:46:11Z">
+        <test-method status="PASS" signature="MouseHoverToCourseMenuLink()[pri:0, instance:com.qa.myntra.TestClass.CourseAtWayToAutomationClass@737996a0]" name="MouseHoverToCourseMenuLink" duration-ms="333" started-at="2019-01-04T05:42:52Z" finished-at="2019-01-04T05:42:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MouseHoverToCourseMenuLink -->
-        <test-method status="PASS" signature="ListOfCourseOffered()[pri:1, instance:com.qa.myntra.TestClass.CourseAtWayToAutomationClass@2096442d]" name="ListOfCourseOffered" duration-ms="61715" started-at="2019-01-03T11:46:11Z" description="This is ListCourseMethod" depends-on-methods="com.qa.myntra.TestClass.CourseAtWayToAutomationClass.MouseHoverToCourseMenuLink" finished-at="2019-01-03T11:47:12Z">
+        <test-method status="PASS" signature="ListOfCourseOffered()[pri:1, instance:com.qa.myntra.TestClass.CourseAtWayToAutomationClass@737996a0]" name="ListOfCourseOffered" duration-ms="46097" started-at="2019-01-04T05:42:52Z" description="This is ListCourseMethod" depends-on-methods="com.qa.myntra.TestClass.CourseAtWayToAutomationClass.MouseHoverToCourseMenuLink" finished-at="2019-01-04T05:43:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ListOfCourseOffered -->
-        <test-method status="PASS" signature="tearDownBrowser()[pri:0, instance:com.qa.myntra.TestClass.CourseAtWayToAutomationClass@2096442d]" name="tearDownBrowser" is-config="true" duration-ms="228" started-at="2019-01-03T11:47:12Z" finished-at="2019-01-03T11:47:12Z">
+        <test-method status="PASS" signature="tearDownBrowser()[pri:0, instance:com.qa.myntra.TestClass.CourseAtWayToAutomationClass@737996a0]" name="tearDownBrowser" is-config="true" duration-ms="142" started-at="2019-01-04T05:43:38Z" finished-at="2019-01-04T05:43:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownBrowser -->
-        <test-method status="PASS" signature="ExtentReportFlush()[pri:0, instance:com.qa.myntra.TestClass.CourseAtWayToAutomationClass@2096442d]" name="ExtentReportFlush" is-config="true" duration-ms="6" started-at="2019-01-03T11:47:12Z" finished-at="2019-01-03T11:47:12Z">
+        <test-method status="PASS" signature="ExtentReportFlush()[pri:0, instance:com.qa.myntra.TestClass.CourseAtWayToAutomationClass@737996a0]" name="ExtentReportFlush" is-config="true" duration-ms="8" started-at="2019-01-04T05:43:38Z" finished-at="2019-01-04T05:43:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExtentReportFlush -->

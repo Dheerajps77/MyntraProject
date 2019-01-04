@@ -24,5 +24,11 @@ public class CourseAtWayToAutomationClass extends TestbaseClass {
 	{
 		objCourseAtWayToAutomation.ListOfCourseOffered();
 	}
+	
+	@Test(priority=2, enabled=false)
+	public void ClickOnSeleniumCourse()
+	{
+		objCourseAtWayToAutomation.ClickOnSeleniumCourse();
+	}
 
 }

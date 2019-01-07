@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [CourseAtWayToAutomation Suite]">
-  <test thread-count="5" name="CourseAtWayToAutomation Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Home Page Suite]">
+  <listeners>
+    <listener class-name="com.qa.myntra.Utilities.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Home Page test case(failed)">
     <classes>
-      <class name="com.qa.myntra.TestClass.CourseAtWayToAutomationClass">
+      <class name="com.qa.myntra.TestClass.HomePageClass">
         <methods>
-          <include name="MouseHoverToCourseMenuLink"/>
           <include name="OpeningBrowser"/>
+          <include name="ClickOnResetPasswordButton"/>
           <include name="ExtentReportInit"/>
-          <include name="ListOfCourseOffered"/>
+          <include name="ClickOnEMIButtonButton"/>
           <include name="ExtentReportFlush"/>
+          <include name="ClickOnLoginButton"/>
+          <include name="getResult"/>
+          <include name="Extentreport"/>
+          <include name="ClickOnOrderNowButton"/>
           <include name="tearDownBrowser"/>
         </methods>
-      </class> <!-- com.qa.myntra.TestClass.CourseAtWayToAutomationClass -->
+      </class> <!-- com.qa.myntra.TestClass.HomePageClass -->
     </classes>
-  </test> <!-- CourseAtWayToAutomation Test(failed) -->
-</suite> <!-- Failed suite [CourseAtWayToAutomation Suite] -->
+  </test> <!-- Home Page test case(failed) -->
+</suite> <!-- Failed suite [Home Page Suite] -->

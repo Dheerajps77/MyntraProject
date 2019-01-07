@@ -59,7 +59,7 @@ public class ExtentReportListener implements ITestListener, ISuiteListener, IInv
 	}
 
 	public void onFinish(ISuite suite) {
-
+		e2.flush();
 	}
 
 	public void onTestStart(ITestResult result) {

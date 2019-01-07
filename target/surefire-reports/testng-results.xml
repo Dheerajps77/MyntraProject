@@ -1,13 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Parameterizing Suite" duration-ms="61" started-at="2019-01-04T05:42:43Z" finished-at="2019-01-04T05:42:43Z">
+  <suite name="Home Page Suite" duration-ms="109257" started-at="2019-01-07T06:00:38Z" finished-at="2019-01-07T06:02:27Z">
     <groups>
     </groups>
-    <test name="Parameterizing test" duration-ms="61" started-at="2019-01-04T05:42:43Z" finished-at="2019-01-04T05:42:43Z">
+    <test name="Home Page test case" duration-ms="109257" started-at="2019-01-07T06:00:38Z" finished-at="2019-01-07T06:02:27Z">
+      <class name="com.qa.myntra.TestClass.HomePageClass">
+        <test-method status="PASS" signature="ExtentReportInit()[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@234bef66]" name="ExtentReportInit" is-config="true" duration-ms="382" started-at="2019-01-07T06:00:38Z" finished-at="2019-01-07T06:00:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportInit -->
+        <test-method status="PASS" signature="OpeningBrowser()[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@234bef66]" name="OpeningBrowser" is-config="true" duration-ms="41913" started-at="2019-01-07T06:00:38Z" finished-at="2019-01-07T06:01:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpeningBrowser -->
+        <test-method status="PASS" signature="Extentreport(java.lang.reflect.Method)[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@234bef66]" name="Extentreport" is-config="true" duration-ms="83" started-at="2019-01-07T06:01:20Z" finished-at="2019-01-07T06:01:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.myntra.TestClass.HomePageClass.ClickOnGiftCard() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extentreport -->
+        <test-method status="PASS" signature="ClickOnGiftCard()[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@234bef66]" name="ClickOnGiftCard" duration-ms="67072" started-at="2019-01-07T06:01:20Z" finished-at="2019-01-07T06:02:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnGiftCard -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@234bef66]" name="getResult" is-config="true" duration-ms="7" started-at="2019-01-07T06:02:27Z" finished-at="2019-01-07T06:02:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnGiftCard status=SUCCESS method=HomePageClass.ClickOnGiftCard()[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@234bef66] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDownBrowser()[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@234bef66]" name="tearDownBrowser" is-config="true" duration-ms="178" started-at="2019-01-07T06:02:27Z" finished-at="2019-01-07T06:02:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+        <test-method status="PASS" signature="ExtentReportFlush()[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@234bef66]" name="ExtentReportFlush" is-config="true" duration-ms="1462" started-at="2019-01-07T06:02:27Z" finished-at="2019-01-07T06:02:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportFlush -->
+      </class> <!-- com.qa.myntra.TestClass.HomePageClass -->
+    </test> <!-- Home Page test case -->
+  </suite> <!-- Home Page Suite -->
+  <suite name="Parameterizing Suite" duration-ms="88" started-at="2019-01-07T06:00:37Z" finished-at="2019-01-07T06:00:38Z">
+    <groups>
+    </groups>
+    <test name="Parameterizing test" duration-ms="88" started-at="2019-01-07T06:00:37Z" finished-at="2019-01-07T06:00:38Z">
       <class name="com.qa.PracticeExample.Parameterizing">
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:com.qa.PracticeExample.Parameterizing@73f792cf]" name="Login" duration-ms="14" started-at="2019-01-04T05:42:43Z" finished-at="2019-01-04T05:42:43Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:com.qa.PracticeExample.Parameterizing@3fb6a447]" name="Login" duration-ms="17" started-at="2019-01-07T06:00:38Z" finished-at="2019-01-07T06:00:38Z">
           <params>
             <param index="0">
               <value>
@@ -23,11 +73,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="PaymentPage()[pri:0, instance:com.qa.PracticeExample.Parameterizing@73f792cf]" name="PaymentPage" duration-ms="1" started-at="2019-01-04T05:42:43Z" depends-on-methods="com.qa.PracticeExample.Parameterizing.Login" finished-at="2019-01-04T05:42:43Z">
+        <test-method status="PASS" signature="PaymentPage()[pri:0, instance:com.qa.PracticeExample.Parameterizing@3fb6a447]" name="PaymentPage" duration-ms="1" started-at="2019-01-07T06:00:38Z" depends-on-methods="com.qa.PracticeExample.Parameterizing.Login" finished-at="2019-01-07T06:00:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PaymentPage -->
-        <test-method status="PASS" signature="ReceiverPage(java.lang.String, java.lang.String)[pri:0, instance:com.qa.PracticeExample.Parameterizing@73f792cf]" name="ReceiverPage" duration-ms="2" started-at="2019-01-04T05:42:43Z" depends-on-methods="com.qa.PracticeExample.Parameterizing.PaymentPage" finished-at="2019-01-04T05:42:43Z">
+        <test-method status="PASS" signature="ReceiverPage(java.lang.String, java.lang.String)[pri:0, instance:com.qa.PracticeExample.Parameterizing@3fb6a447]" name="ReceiverPage" duration-ms="0" started-at="2019-01-07T06:00:38Z" depends-on-methods="com.qa.PracticeExample.Parameterizing.PaymentPage" finished-at="2019-01-07T06:00:38Z">
           <params>
             <param index="0">
               <value>
@@ -46,36 +96,4 @@
       </class> <!-- com.qa.PracticeExample.Parameterizing -->
     </test> <!-- Parameterizing test -->
   </suite> <!-- Parameterizing Suite -->
-  <suite name="CourseAtWayToAutomation Suite" duration-ms="54518" started-at="2019-01-04T05:42:44Z" finished-at="2019-01-04T05:43:38Z">
-    <groups>
-    </groups>
-    <test name="CourseAtWayToAutomation Test" duration-ms="54518" started-at="2019-01-04T05:42:44Z" finished-at="2019-01-04T05:43:38Z">
-      <class name="com.qa.myntra.TestClass.CourseAtWayToAutomationClass">
-        <test-method status="PASS" signature="ExtentReportInit()[pri:0, instance:com.qa.myntra.TestClass.CourseAtWayToAutomationClass@737996a0]" name="ExtentReportInit" is-config="true" duration-ms="295" started-at="2019-01-04T05:42:44Z" finished-at="2019-01-04T05:42:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ExtentReportInit -->
-        <test-method status="PASS" signature="OpeningBrowser()[pri:0, instance:com.qa.myntra.TestClass.CourseAtWayToAutomationClass@737996a0]" name="OpeningBrowser" is-config="true" duration-ms="7943" started-at="2019-01-04T05:42:44Z" finished-at="2019-01-04T05:42:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpeningBrowser -->
-        <test-method status="PASS" signature="MouseHoverToCourseMenuLink()[pri:0, instance:com.qa.myntra.TestClass.CourseAtWayToAutomationClass@737996a0]" name="MouseHoverToCourseMenuLink" duration-ms="333" started-at="2019-01-04T05:42:52Z" finished-at="2019-01-04T05:42:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MouseHoverToCourseMenuLink -->
-        <test-method status="PASS" signature="ListOfCourseOffered()[pri:1, instance:com.qa.myntra.TestClass.CourseAtWayToAutomationClass@737996a0]" name="ListOfCourseOffered" duration-ms="46097" started-at="2019-01-04T05:42:52Z" description="This is ListCourseMethod" depends-on-methods="com.qa.myntra.TestClass.CourseAtWayToAutomationClass.MouseHoverToCourseMenuLink" finished-at="2019-01-04T05:43:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ListOfCourseOffered -->
-        <test-method status="PASS" signature="tearDownBrowser()[pri:0, instance:com.qa.myntra.TestClass.CourseAtWayToAutomationClass@737996a0]" name="tearDownBrowser" is-config="true" duration-ms="142" started-at="2019-01-04T05:43:38Z" finished-at="2019-01-04T05:43:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownBrowser -->
-        <test-method status="PASS" signature="ExtentReportFlush()[pri:0, instance:com.qa.myntra.TestClass.CourseAtWayToAutomationClass@737996a0]" name="ExtentReportFlush" is-config="true" duration-ms="8" started-at="2019-01-04T05:43:38Z" finished-at="2019-01-04T05:43:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ExtentReportFlush -->
-      </class> <!-- com.qa.myntra.TestClass.CourseAtWayToAutomationClass -->
-    </test> <!-- CourseAtWayToAutomation Test -->
-  </suite> <!-- CourseAtWayToAutomation Suite -->
 </testng-results>

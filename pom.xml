@@ -24,8 +24,8 @@
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>Parameterizing_testng.xml</suiteXmlFile>
-						<!-- <suiteXmlFile>HomePage_testng.xml</suiteXmlFile> -->
-						<suiteXmlFile>CourseAtWayToAutomationClass_testng.xml</suiteXmlFile>
+						<suiteXmlFile>HomePage_testng.xml</suiteXmlFile> 
+						<!-- <suiteXmlFile>CourseAtWayToAutomationClass_testng.xml</suiteXmlFile> -->
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

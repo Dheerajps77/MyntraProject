@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="2" failed="2" ignored="0" total="11" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Home Page Suite" duration-ms="109257" started-at="2019-01-07T06:00:38Z" finished-at="2019-01-07T06:02:27Z">
+  <suite name="Home Page Suite" duration-ms="109236" started-at="2019-01-07T07:12:15Z" finished-at="2019-01-07T07:14:05Z">
     <groups>
     </groups>
-    <test name="Home Page test case" duration-ms="109257" started-at="2019-01-07T06:00:38Z" finished-at="2019-01-07T06:02:27Z">
+    <test name="Home Page test case" duration-ms="109236" started-at="2019-01-07T07:12:15Z" finished-at="2019-01-07T07:14:05Z">
       <class name="com.qa.myntra.TestClass.HomePageClass">
-        <test-method status="PASS" signature="ExtentReportInit()[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@234bef66]" name="ExtentReportInit" is-config="true" duration-ms="382" started-at="2019-01-07T06:00:38Z" finished-at="2019-01-07T06:00:38Z">
+        <test-method status="PASS" signature="ExtentReportInit()[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b]" name="ExtentReportInit" is-config="true" duration-ms="3" started-at="2019-01-07T07:12:15Z" finished-at="2019-01-07T07:12:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExtentReportInit -->
-        <test-method status="PASS" signature="OpeningBrowser()[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@234bef66]" name="OpeningBrowser" is-config="true" duration-ms="41913" started-at="2019-01-07T06:00:38Z" finished-at="2019-01-07T06:01:20Z">
+        <test-method status="PASS" signature="OpeningBrowser()[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b]" name="OpeningBrowser" is-config="true" duration-ms="38736" started-at="2019-01-07T07:12:15Z" finished-at="2019-01-07T07:12:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpeningBrowser -->
-        <test-method status="PASS" signature="Extentreport(java.lang.reflect.Method)[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@234bef66]" name="Extentreport" is-config="true" duration-ms="83" started-at="2019-01-07T06:01:20Z" finished-at="2019-01-07T06:01:20Z">
+        <test-method status="PASS" signature="Extentreport(java.lang.reflect.Method)[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b]" name="Extentreport" is-config="true" duration-ms="3" started-at="2019-01-07T07:12:54Z" finished-at="2019-01-07T07:12:54Z">
           <params>
             <param index="0">
               <value>
@@ -26,38 +26,388 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Extentreport -->
-        <test-method status="PASS" signature="ClickOnGiftCard()[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@234bef66]" name="ClickOnGiftCard" duration-ms="67072" started-at="2019-01-07T06:01:20Z" finished-at="2019-01-07T06:02:27Z">
+        <test-method status="PASS" signature="ClickOnGiftCard()[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b]" name="ClickOnGiftCard" duration-ms="67723" started-at="2019-01-07T07:12:54Z" finished-at="2019-01-07T07:14:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnGiftCard -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@234bef66]" name="getResult" is-config="true" duration-ms="7" started-at="2019-01-07T06:02:27Z" finished-at="2019-01-07T06:02:27Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b]" name="getResult" is-config="true" duration-ms="4" started-at="2019-01-07T07:14:02Z" finished-at="2019-01-07T07:14:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickOnGiftCard status=SUCCESS method=HomePageClass.ClickOnGiftCard()[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@234bef66] output={null}]]]>
+                <![CDATA[[TestResult name=ClickOnGiftCard status=SUCCESS method=HomePageClass.ClickOnGiftCard()[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="tearDownBrowser()[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@234bef66]" name="tearDownBrowser" is-config="true" duration-ms="178" started-at="2019-01-07T06:02:27Z" finished-at="2019-01-07T06:02:27Z">
+        <test-method status="PASS" signature="Extentreport(java.lang.reflect.Method)[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b]" name="Extentreport" is-config="true" duration-ms="1" started-at="2019-01-07T07:14:02Z" finished-at="2019-01-07T07:14:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.myntra.TestClass.HomePageClass.ClickOnLoginButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extentreport -->
+        <test-method status="FAIL" signature="ClickOnLoginButton()[pri:1, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b]" name="ClickOnLoginButton" duration-ms="10" started-at="2019-01-07T07:14:02Z" finished-at="2019-01-07T07:14:02Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at com.qa.myntra.TestClass.HomePageClass.ClickOnLoginButton(HomePageClass.java:69)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnLoginButton -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b]" name="getResult" is-config="true" duration-ms="6" started-at="2019-01-07T07:14:02Z" finished-at="2019-01-07T07:14:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnLoginButton status=FAILURE method=HomePageClass.ClickOnLoginButton()[pri:1, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Extentreport(java.lang.reflect.Method)[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b]" name="Extentreport" is-config="true" duration-ms="1" started-at="2019-01-07T07:14:02Z" finished-at="2019-01-07T07:14:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.myntra.TestClass.HomePageClass.ClickOnRegisterButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extentreport -->
+        <test-method status="PASS" signature="ClickOnRegisterButton()[pri:2, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b]" name="ClickOnRegisterButton" duration-ms="7" started-at="2019-01-07T07:14:02Z" finished-at="2019-01-07T07:14:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnRegisterButton -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b]" name="getResult" is-config="true" duration-ms="2" started-at="2019-01-07T07:14:02Z" finished-at="2019-01-07T07:14:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnRegisterButton status=SUCCESS method=HomePageClass.ClickOnRegisterButton()[pri:2, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Extentreport(java.lang.reflect.Method)[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b]" name="Extentreport" is-config="true" duration-ms="4" started-at="2019-01-07T07:14:02Z" finished-at="2019-01-07T07:14:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.myntra.TestClass.HomePageClass.ClickOnResetPasswordButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extentreport -->
+        <test-method status="FAIL" signature="ClickOnResetPasswordButton()[pri:3, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b]" name="ClickOnResetPasswordButton" duration-ms="2" started-at="2019-01-07T07:14:02Z" finished-at="2019-01-07T07:14:02Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at com.qa.myntra.TestClass.HomePageClass.ClickOnResetPasswordButton(HomePageClass.java:83)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnResetPasswordButton -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b]" name="getResult" is-config="true" duration-ms="5" started-at="2019-01-07T07:14:02Z" finished-at="2019-01-07T07:14:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnResetPasswordButton status=FAILURE method=HomePageClass.ClickOnResetPasswordButton()[pri:3, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Extentreport(java.lang.reflect.Method)[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b]" name="Extentreport" is-config="true" duration-ms="2" started-at="2019-01-07T07:14:02Z" finished-at="2019-01-07T07:14:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.myntra.TestClass.HomePageClass.ClickOnOrderNowButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extentreport -->
+        <test-method status="SKIP" signature="ClickOnOrderNowButton()[pri:4, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b]" name="ClickOnOrderNowButton" duration-ms="2" started-at="2019-01-07T07:14:02Z" finished-at="2019-01-07T07:14:02Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[ClickOnOrderNowButton is not ready to test. Hence skipping this one.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: ClickOnOrderNowButton is not ready to test. Hence skipping this one.
+at com.qa.myntra.TestClass.HomePageClass.ClickOnOrderNowButton(HomePageClass.java:91)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnOrderNowButton -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b]" name="getResult" is-config="true" duration-ms="27" started-at="2019-01-07T07:14:02Z" finished-at="2019-01-07T07:14:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnOrderNowButton status=SKIP method=HomePageClass.ClickOnOrderNowButton()[pri:4, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Extentreport(java.lang.reflect.Method)[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b]" name="Extentreport" is-config="true" duration-ms="1" started-at="2019-01-07T07:14:02Z" finished-at="2019-01-07T07:14:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.myntra.TestClass.HomePageClass.ClickOnBuyNowButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extentreport -->
+        <test-method status="PASS" signature="ClickOnBuyNowButton()[pri:5, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b]" name="ClickOnBuyNowButton" duration-ms="8" started-at="2019-01-07T07:14:02Z" finished-at="2019-01-07T07:14:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnBuyNowButton -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b]" name="getResult" is-config="true" duration-ms="3" started-at="2019-01-07T07:14:02Z" finished-at="2019-01-07T07:14:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnBuyNowButton status=SUCCESS method=HomePageClass.ClickOnBuyNowButton()[pri:5, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Extentreport(java.lang.reflect.Method)[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b]" name="Extentreport" is-config="true" duration-ms="1" started-at="2019-01-07T07:14:02Z" finished-at="2019-01-07T07:14:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.myntra.TestClass.HomePageClass.ClickOnEMIButtonButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extentreport -->
+        <test-method status="SKIP" signature="ClickOnEMIButtonButton()[pri:6, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b]" name="ClickOnEMIButtonButton" duration-ms="2" started-at="2019-01-07T07:14:02Z" finished-at="2019-01-07T07:14:02Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[ClickOnEMIButtonButton is not ready to test. Hence skipping this one.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: ClickOnEMIButtonButton is not ready to test. Hence skipping this one.
+at com.qa.myntra.TestClass.HomePageClass.ClickOnEMIButtonButton(HomePageClass.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnEMIButtonButton -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b]" name="getResult" is-config="true" duration-ms="18" started-at="2019-01-07T07:14:02Z" finished-at="2019-01-07T07:14:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnEMIButtonButton status=SKIP method=HomePageClass.ClickOnEMIButtonButton()[pri:6, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Extentreport(java.lang.reflect.Method)[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b]" name="Extentreport" is-config="true" duration-ms="1" started-at="2019-01-07T07:14:02Z" finished-at="2019-01-07T07:14:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.myntra.TestClass.HomePageClass.ClickOnSubmitButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extentreport -->
+        <test-method status="PASS" signature="ClickOnSubmitButton()[pri:7, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b]" name="ClickOnSubmitButton" duration-ms="3" started-at="2019-01-07T07:14:02Z" finished-at="2019-01-07T07:14:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnSubmitButton -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b]" name="getResult" is-config="true" duration-ms="11" started-at="2019-01-07T07:14:02Z" finished-at="2019-01-07T07:14:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnSubmitButton status=SUCCESS method=HomePageClass.ClickOnSubmitButton()[pri:7, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDownBrowser()[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b]" name="tearDownBrowser" is-config="true" duration-ms="2473" started-at="2019-01-07T07:14:02Z" finished-at="2019-01-07T07:14:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownBrowser -->
-        <test-method status="PASS" signature="ExtentReportFlush()[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@234bef66]" name="ExtentReportFlush" is-config="true" duration-ms="1462" started-at="2019-01-07T06:02:27Z" finished-at="2019-01-07T06:02:29Z">
+        <test-method status="PASS" signature="ExtentReportFlush()[pri:0, instance:com.qa.myntra.TestClass.HomePageClass@13c78c0b]" name="ExtentReportFlush" is-config="true" duration-ms="1416" started-at="2019-01-07T07:14:05Z" finished-at="2019-01-07T07:14:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExtentReportFlush -->
       </class> <!-- com.qa.myntra.TestClass.HomePageClass -->
     </test> <!-- Home Page test case -->
   </suite> <!-- Home Page Suite -->
-  <suite name="Parameterizing Suite" duration-ms="88" started-at="2019-01-07T06:00:37Z" finished-at="2019-01-07T06:00:38Z">
+  <suite name="Parameterizing Suite" duration-ms="131" started-at="2019-01-07T07:12:15Z" finished-at="2019-01-07T07:12:15Z">
     <groups>
     </groups>
-    <test name="Parameterizing test" duration-ms="88" started-at="2019-01-07T06:00:37Z" finished-at="2019-01-07T06:00:38Z">
+    <test name="Parameterizing test" duration-ms="131" started-at="2019-01-07T07:12:15Z" finished-at="2019-01-07T07:12:15Z">
       <class name="com.qa.PracticeExample.Parameterizing">
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:com.qa.PracticeExample.Parameterizing@3fb6a447]" name="Login" duration-ms="17" started-at="2019-01-07T06:00:38Z" finished-at="2019-01-07T06:00:38Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:com.qa.PracticeExample.Parameterizing@5f2050f6]" name="Login" duration-ms="26" started-at="2019-01-07T07:12:15Z" finished-at="2019-01-07T07:12:15Z">
           <params>
             <param index="0">
               <value>
@@ -73,11 +423,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="PaymentPage()[pri:0, instance:com.qa.PracticeExample.Parameterizing@3fb6a447]" name="PaymentPage" duration-ms="1" started-at="2019-01-07T06:00:38Z" depends-on-methods="com.qa.PracticeExample.Parameterizing.Login" finished-at="2019-01-07T06:00:38Z">
+        <test-method status="PASS" signature="PaymentPage()[pri:0, instance:com.qa.PracticeExample.Parameterizing@5f2050f6]" name="PaymentPage" duration-ms="1" started-at="2019-01-07T07:12:15Z" depends-on-methods="com.qa.PracticeExample.Parameterizing.Login" finished-at="2019-01-07T07:12:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PaymentPage -->
-        <test-method status="PASS" signature="ReceiverPage(java.lang.String, java.lang.String)[pri:0, instance:com.qa.PracticeExample.Parameterizing@3fb6a447]" name="ReceiverPage" duration-ms="0" started-at="2019-01-07T06:00:38Z" depends-on-methods="com.qa.PracticeExample.Parameterizing.PaymentPage" finished-at="2019-01-07T06:00:38Z">
+        <test-method status="PASS" signature="ReceiverPage(java.lang.String, java.lang.String)[pri:0, instance:com.qa.PracticeExample.Parameterizing@5f2050f6]" name="ReceiverPage" duration-ms="3" started-at="2019-01-07T07:12:15Z" depends-on-methods="com.qa.PracticeExample.Parameterizing.PaymentPage" finished-at="2019-01-07T07:12:15Z">
           <params>
             <param index="0">
               <value>

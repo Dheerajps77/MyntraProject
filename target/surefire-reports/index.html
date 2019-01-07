@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">2 suites</span>
+      <span class="top-banner-font-1">2 suites, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Home_Page_Suite">
-              <span class="suite-name border-passed">Home Page Suite</span>
+              <span class="suite-name border-failed">Home Page Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,45 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">8 methods, 2 failed,  2 skipped,  4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Home_Page_Suite" class="hide-methods failed suite-Home_Page_Suite"> (hide)</a> <!-- hide-methods failed suite-Home_Page_Suite -->
+                      <a href="#" panel-name="suite-Home_Page_Suite" class="show-methods failed suite-Home_Page_Suite"> (show)</a> <!-- show-methods failed suite-Home_Page_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Home_Page_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Home_Page_Suite" title="com.qa.myntra.TestClass.HomePageClass" hash-for-method="ClickOnLoginButton">ClickOnLoginButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Home_Page_Suite" title="com.qa.myntra.TestClass.HomePageClass" hash-for-method="ClickOnResetPasswordButton">ClickOnResetPasswordButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Home_Page_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Home_Page_Suite" class="hide-methods skipped suite-Home_Page_Suite"> (hide)</a> <!-- hide-methods skipped suite-Home_Page_Suite -->
+                      <a href="#" panel-name="suite-Home_Page_Suite" class="show-methods skipped suite-Home_Page_Suite"> (show)</a> <!-- show-methods skipped suite-Home_Page_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Home_Page_Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Home_Page_Suite" title="com.qa.myntra.TestClass.HomePageClass" hash-for-method="ClickOnEMIButtonButton">ClickOnEMIButtonButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Home_Page_Suite" title="com.qa.myntra.TestClass.HomePageClass" hash-for-method="ClickOnOrderNowButton">ClickOnOrderNowButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Home_Page_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +140,22 @@
                     <div class="method-list-content passed suite-Home_Page_Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Home_Page_Suite" title="com.qa.myntra.TestClass.HomePageClass" hash-for-method="ClickOnBuyNowButton">ClickOnBuyNowButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Home_Page_Suite" title="com.qa.myntra.TestClass.HomePageClass" hash-for-method="ClickOnGiftCard">ClickOnGiftCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Home_Page_Suite" title="com.qa.myntra.TestClass.HomePageClass" hash-for-method="ClickOnRegisterButton">ClickOnRegisterButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Home_Page_Suite" title="com.qa.myntra.TestClass.HomePageClass" hash-for-method="ClickOnSubmitButton">ClickOnSubmitButton</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Home_Page_Suite -->
@@ -206,6 +259,66 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Home_Page_Suite" class="panel Home_Page_Suite">
+          <div class="suite-Home_Page_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.myntra.TestClass.HomePageClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnLoginButton">
+                  </a> <!-- ClickOnLoginButton -->
+                  <span class="method-name">ClickOnLoginButton</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.qa.myntra.TestClass.HomePageClass.ClickOnLoginButton(HomePageClass.java:69)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnResetPasswordButton">
+                  </a> <!-- ClickOnResetPasswordButton -->
+                  <span class="method-name">ClickOnResetPasswordButton</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.qa.myntra.TestClass.HomePageClass.ClickOnResetPasswordButton(HomePageClass.java:83)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Home_Page_Suite-class-failed -->
+          <div class="suite-Home_Page_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qa.myntra.TestClass.HomePageClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnEMIButtonButton">
+                  </a> <!-- ClickOnEMIButtonButton -->
+                  <span class="method-name">ClickOnEMIButtonButton</span>
+                  <div class="stack-trace">org.testng.SkipException: ClickOnEMIButtonButton is not ready to test. Hence skipping this one.
+	at com.qa.myntra.TestClass.HomePageClass.ClickOnEMIButtonButton(HomePageClass.java:106)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnOrderNowButton">
+                  </a> <!-- ClickOnOrderNowButton -->
+                  <span class="method-name">ClickOnOrderNowButton</span>
+                  <div class="stack-trace">org.testng.SkipException: ClickOnOrderNowButton is not ready to test. Hence skipping this one.
+	at com.qa.myntra.TestClass.HomePageClass.ClickOnOrderNowButton(HomePageClass.java:91)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Home_Page_Suite-class-skipped -->
           <div class="suite-Home_Page_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -214,9 +327,30 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="ClickOnBuyNowButton">
+                  </a> <!-- ClickOnBuyNowButton -->
+                  <span class="method-name">ClickOnBuyNowButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="ClickOnGiftCard">
                   </a> <!-- ClickOnGiftCard -->
                   <span class="method-name">ClickOnGiftCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnRegisterButton">
+                  </a> <!-- ClickOnRegisterButton -->
+                  <span class="method-name">ClickOnRegisterButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnSubmitButton">
+                  </a> <!-- ClickOnSubmitButton -->
+                  <span class="method-name">ClickOnSubmitButton</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -264,6 +398,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Home Page Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.myntra.Utilities.ExtentReportListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Home Page test case&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.qa.myntra.TestClass.HomePageClass&quot;/&gt;
@@ -347,11 +484,39 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'ClickOnGiftCard')
 data.setCell(0, 2, 'com.qa.myntra.TestClass.HomePageClass')
-data.setCell(0, 3, 67072);
+data.setCell(0, 3, 67723);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ClickOnLoginButton')
+data.setCell(1, 2, 'com.qa.myntra.TestClass.HomePageClass')
+data.setCell(1, 3, 10);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ClickOnBuyNowButton')
+data.setCell(2, 2, 'com.qa.myntra.TestClass.HomePageClass')
+data.setCell(2, 3, 8);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ClickOnRegisterButton')
+data.setCell(3, 2, 'com.qa.myntra.TestClass.HomePageClass')
+data.setCell(3, 3, 7);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ClickOnSubmitButton')
+data.setCell(4, 2, 'com.qa.myntra.TestClass.HomePageClass')
+data.setCell(4, 3, 3);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ClickOnResetPasswordButton')
+data.setCell(5, 2, 'com.qa.myntra.TestClass.HomePageClass')
+data.setCell(5, 3, 2);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ClickOnOrderNowButton')
+data.setCell(6, 2, 'com.qa.myntra.TestClass.HomePageClass')
+data.setCell(6, 3, 2);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ClickOnEMIButtonButton')
+data.setCell(7, 2, 'com.qa.myntra.TestClass.HomePageClass')
+data.setCell(7, 3, 2);
 window.suiteTableData['Home_Page_Suite']= { tableData: data, tableDiv: 'times-div-Home_Page_Suite'}
 return data;
 }
@@ -380,20 +545,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Login')
 data.setCell(0, 2, 'com.qa.PracticeExample.Parameterizing')
-data.setCell(0, 3, 17);
+data.setCell(0, 3, 26);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'PaymentPage')
+data.setCell(1, 1, 'ReceiverPage')
 data.setCell(1, 2, 'com.qa.PracticeExample.Parameterizing')
-data.setCell(1, 3, 1);
+data.setCell(1, 3, 3);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'ReceiverPage')
+data.setCell(2, 1, 'PaymentPage')
 data.setCell(2, 2, 'com.qa.PracticeExample.Parameterizing')
-data.setCell(2, 3, 0);
+data.setCell(2, 3, 1);
 window.suiteTableData['Parameterizing_Suite']= { tableData: data, tableDiv: 'times-div-Parameterizing_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 18 ms</span>
+              <span class="suite-total-time">Total running time: 30 ms</span>
               <div id="times-div-Parameterizing_Suite">
               </div> <!-- times-div-Parameterizing_Suite -->
             </div> <!-- times-div -->
@@ -440,27 +605,115 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">OpeningBrowser</span>
-                <span class="method-start">383 ms</span>
+                <span class="method-start">3 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">Extentreport(public void com.qa.myntra.TestClass.HomePageClass.ClickOnGiftCard() throws java.lang.InterruptedExce...)</span>
-                <span class="method-start">42298 ms</span>
+                <span class="method-start">38742 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ClickOnGiftCard</span>
-                <span class="method-start">42381 ms</span>
+                <span class="method-start">38746 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=ClickOnGiftCard status=SUCCESS method=HomePageClass.ClickOnGiftCard()[pri:0, instan...)</span>
-                <span class="method-start">109455 ms</span>
+                <span class="method-start">106472 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Extentreport(public void com.qa.myntra.TestClass.HomePageClass.ClickOnLoginButton())</span>
+                <span class="method-start">106478 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ClickOnLoginButton</span>
+                <span class="method-start">106481 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=ClickOnLoginButton status=FAILURE method=HomePageClass.ClickOnLoginButton()[pri:1, ...)</span>
+                <span class="method-start">106531 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Extentreport(public void com.qa.myntra.TestClass.HomePageClass.ClickOnRegisterButton())</span>
+                <span class="method-start">106542 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickOnRegisterButton</span>
+                <span class="method-start">106547 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=ClickOnRegisterButton status=SUCCESS method=HomePageClass.ClickOnRegisterButton()[p...)</span>
+                <span class="method-start">106559 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Extentreport(public void com.qa.myntra.TestClass.HomePageClass.ClickOnResetPasswordButton())</span>
+                <span class="method-start">106609 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ClickOnResetPasswordButton</span>
+                <span class="method-start">106614 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=ClickOnResetPasswordButton status=FAILURE method=HomePageClass.ClickOnResetPassword...)</span>
+                <span class="method-start">106623 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Extentreport(public void com.qa.myntra.TestClass.HomePageClass.ClickOnOrderNowButton())</span>
+                <span class="method-start">106633 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickOnOrderNowButton</span>
+                <span class="method-start">106637 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=ClickOnOrderNowButton status=SKIP method=HomePageClass.ClickOnOrderNowButton()[pri:...)</span>
+                <span class="method-start">106649 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Extentreport(public void com.qa.myntra.TestClass.HomePageClass.ClickOnBuyNowButton())</span>
+                <span class="method-start">106680 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickOnBuyNowButton</span>
+                <span class="method-start">106682 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=ClickOnBuyNowButton status=SUCCESS method=HomePageClass.ClickOnBuyNowButton()[pri:5...)</span>
+                <span class="method-start">106695 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Extentreport(public void com.qa.myntra.TestClass.HomePageClass.ClickOnEMIButtonButton())</span>
+                <span class="method-start">106700 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickOnEMIButtonButton</span>
+                <span class="method-start">106702 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=ClickOnEMIButtonButton status=SKIP method=HomePageClass.ClickOnEMIButtonButton()[pr...)</span>
+                <span class="method-start">106709 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Extentreport(public void com.qa.myntra.TestClass.HomePageClass.ClickOnSubmitButton())</span>
+                <span class="method-start">106730 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickOnSubmitButton</span>
+                <span class="method-start">106736 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=ClickOnSubmitButton status=SUCCESS method=HomePageClass.ClickOnSubmitButton()[pri:7...)</span>
+                <span class="method-start">106753 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">tearDownBrowser</span>
-                <span class="method-start">109462 ms</span>
+                <span class="method-start">106765 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">ExtentReportFlush</span>
-                <span class="method-start">109654 ms</span>
+                <span class="method-start">109290 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
@@ -477,11 +730,11 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PaymentPage</span>
-                <span class="method-start">22 ms</span>
+                <span class="method-start">68 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ReceiverPage(Summit, Singh)</span>
-                <span class="method-start">26 ms</span>
+                <span class="method-start">74 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

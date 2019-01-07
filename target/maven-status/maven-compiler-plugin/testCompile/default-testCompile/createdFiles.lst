@@ -3,6 +3,7 @@ com\qa\myntra\TestPage\CourseAtWayToAutomation.class
 com\qa\myntra\TestPage\MemberLoginPage.class
 com\qa\myntra\TestClass\MemberLoginClass.class
 com\qa\myntra\TestClass\HomePageClass.class
+com\qa\myntra\Utilities\ExtentReportListener.class
 com\qa\myntra\Utilities\CaptureScreenshot.class
 com\qa\myntra\TestPage\HomePage.class
 com\qa\PracticeExample\Parameterizing.class

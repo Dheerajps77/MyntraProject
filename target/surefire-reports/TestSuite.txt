@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 159.617 s <<< FAILURE! - in TestSuite
-ClickOnLoginButton(com.qa.myntra.TestClass.HomePageClass)  Time elapsed: 0.07 s  <<< FAILURE!
+Tests run: 11, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 113.115 s <<< FAILURE! - in TestSuite
+ClickOnLoginButton(com.qa.myntra.TestClass.HomePageClass)  Time elapsed: 0.076 s  <<< FAILURE!
 java.lang.AssertionError: expected [false] but found [true]
 	at com.qa.myntra.TestClass.HomePageClass.ClickOnLoginButton(HomePageClass.java:69)
 
-ClickOnResetPasswordButton(com.qa.myntra.TestClass.HomePageClass)  Time elapsed: 0.01 s  <<< FAILURE!
+ClickOnResetPasswordButton(com.qa.myntra.TestClass.HomePageClass)  Time elapsed: 0.009 s  <<< FAILURE!
 java.lang.AssertionError: expected [false] but found [true]
 	at com.qa.myntra.TestClass.HomePageClass.ClickOnResetPasswordButton(HomePageClass.java:83)
 
